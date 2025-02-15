@@ -1,0 +1,118 @@
+.banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+    margin: 120px auto;
+    gap: 25px;
+    max-width: var(--max-width-page);
+
+    h1{
+        background: var(--text-gradiant);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
+
+.banner__information{
+    text-wrap: balance;
+}
+
+.banner__illustration {
+    max-width: 455px;
+    min-width: 300px;
+    height: 100%;
+    margin: auto;
+}
+
+.banner__illustration img {
+    width: 100%; 
+    height: 100%; 
+}
+
+.banner__background{
+    background-color: var(--white-color);
+    border-radius: 8px;
+}
+
+.banner__box-shadow{
+    box-shadow: var(--box-shadow);
+}
+
+.banner__margin-bottom{
+    margin-bottom: 0px;
+}
+
+
+
+@media (width >= 1020px) {
+    .banner__information{
+        grid-area: information;
+        padding: 0px 40px;
+        margin-right: 25px;
+    }
+    .banner__illustration{
+        grid-area: illustration;
+        place-self: end;
+        margin: 0;
+    }
+
+    .banner__illustration img{
+        border-top-right-radius: 14px;
+        border-bottom-right-radius: 14px;
+    
+    }
+    
+    .banner {
+        grid-template-columns: 50% 50%; 
+        grid-template-areas: "information illustration"; 
+        text-align: left; 
+        
+    }
+
+    /*Estos estilos se utilizan para establecer el estilo de banner en pc por medio de props*/
+    .banner__reverse{
+        grid-template-areas: "illustration information"; 
+        text-align: end;
+        margin: 120px auto;
+        .banner__illustration{
+            place-self: start;
+            
+        }
+        .banner__illustration img{
+            border-top-left-radius: 14px;
+            border-bottom-left-radius: 14px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+            
+        }
+    }
+    .banner__column{
+        margin: 120px auto;
+        grid-template-areas: 
+            "information"
+            "illustration"
+        ;
+        grid-template-columns: 100%;
+        text-align: center;
+        .banner__information-title{
+            margin-bottom: 0px;
+        }
+        .banner__information-description{
+            margin-top: 0px;
+        }
+        .banner__illustration{
+            max-width: 650px;
+            margin: auto;
+        }
+        .banner__illustration img{
+            border-radius: 14px;
+        }
+    }
+    .banner__margin-bottom{
+        margin-bottom: 0px;
+    }
+    
+    
+}

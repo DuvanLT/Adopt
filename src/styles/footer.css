@@ -1,0 +1,21 @@
+footer{
+    padding: 20px;
+    background: var(--white-color);
+    border-top: 0.5px solid var(--grey-color);
+}
+
+.footer__content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: end;
+    list-style: none;
+}
+
+.footer__content-element{
+    background: var(--text-gradiant);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}

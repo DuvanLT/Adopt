@@ -1,0 +1,184 @@
+
+{"pets" :[
+    {
+      "id": 1,
+      "name": "Max",
+      "history": "Rescatado de la calle en mal estado, ahora se encuentra en recuperación.",
+      "age": 3,
+      "breed": "Labrador Retriever",
+      "species": "Perro",
+      "image": "https://example.com/images/max.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Luna",
+      "history": "Abandonada en un refugio junto con sus hermanos.",
+      "age": 2,
+      "breed": "Gato Siamés",
+      "species": "Gato",
+      "image": "https://example.com/images/luna.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rocky",
+      "history": "Rescatado de un criadero ilegal.",
+      "age": 4,
+      "breed": "Bulldog Francés",
+      "species": "Perro",
+      "image": "https://example.com/images/rocky.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Simba",
+      "history": "Nació en la calle y fue llevado a un refugio.",
+      "age": 1,
+      "breed": "Gato Persa",
+      "species": "Gato",
+      "image": "https://example.com/images/simba.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Bella",
+      "history": "Rescatada de una casa donde sufría maltrato.",
+      "age": 5,
+      "breed": "Golden Retriever",
+      "species": "Perro",
+      "image": "https://example.com/images/bella.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Milo",
+      "history": "Abandonado en un parque, encontrado desnutrido.",
+      "age": 2,
+      "breed": "Gato Bengalí",
+      "species": "Gato",
+      "image": "https://example.com/images/milo.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Duke",
+      "history": "Encontrado en un basurero, ahora en adopción.",
+      "age": 3,
+      "breed": "Pastor Alemán",
+      "species": "Perro",
+      "image": "https://example.com/images/duke.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Nala",
+      "history": "Rescatada de un tejado, estaba atrapada sin comida.",
+      "age": 1,
+      "breed": "Gato Angora",
+      "species": "Gato",
+      "image": "https://example.com/images/nala.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Bruno",
+      "history": "Rescatado de una inundación.",
+      "age": 4,
+      "breed": "Husky Siberiano",
+      "species": "Perro",
+      "image": "https://example.com/images/bruno.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Mia",
+      "history": "Encontrada en un motor de auto, rescatada a tiempo.",
+      "age": 2,
+      "breed": "Gato Europeo",
+      "species": "Gato",
+      "image": "https://example.com/images/mia.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Thor",
+      "history": "Vivía en la calle, ahora busca un hogar.",
+      "age": 5,
+      "breed": "Boxer",
+      "species": "Perro",
+      "image": "https://example.com/images/thor.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Coco",
+      "history": "Rescatado de una tienda de mascotas ilegal.",
+      "age": 3,
+      "breed": "Gato Esfinge",
+      "species": "Gato",
+      "image": "https://example.com/images/coco.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Leo",
+      "history": "Sobreviviente de un accidente de tráfico.",
+      "age": 2,
+      "breed": "Beagle",
+      "species": "Perro",
+      "image": "https://example.com/images/leo.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Toby",
+      "history": "Rescatado de un criadero donde no lo alimentaban bien.",
+      "age": 3,
+      "breed": "Cocker Spaniel",
+      "species": "Perro",
+      "image": "https://example.com/images/toby.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Zoe",
+      "history": "Abandonada en una casa deshabitada.",
+      "age": 2,
+      "breed": "Gato Azul Ruso",
+      "species": "Gato",
+      "image": "https://example.com/images/zoe.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Charlie",
+      "history": "Fue encontrado en la calle con una pata lastimada.",
+      "age": 4,
+      "breed": "Dálmata",
+      "species": "Perro",
+      "image": "https://example.com/images/charlie.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Felix",
+      "history": "Rescatado de una fábrica abandonada.",
+      "age": 1,
+      "breed": "Gato Común",
+      "species": "Gato",
+      "image": "https://example.com/images/felix.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Oscar",
+      "history": "Abandonado en una carretera, rescatado por voluntarios.",
+      "age": 3,
+      "breed": "Bulldog Inglés",
+      "species": "Perro",
+      "image": "https://example.com/images/oscar.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Chloe",
+      "history": "Sobrevivió a un incendio y fue adoptada temporalmente.",
+      "age": 2,
+      "breed": "Gato Himalayo",
+      "species": "Gato",
+      "image": "https://example.com/images/chloe.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Rex",
+      "history": "Rescatado de una construcción donde lo dejaron atrapado.",
+      "age": 5,
+      "breed": "Pastor Belga",
+      "species": "Perro",
+      "image": "https://example.com/images/rex.jpg"
+    }
+  ]
+}
