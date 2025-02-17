@@ -2,7 +2,7 @@ import { BannerProps } from "../types/Banner.types"
 export const BANNER_HERO: BannerProps = {
         title: "Encuentra a tu nuevo mejor amigo",
         description: "Ellos esperan un hogar lleno de amor. No importa su edad, raza o historia, ellos solo quieren una segunda oportunidad.",
-        imageUrl: "./Hero.png",
+        imageUrl: "./Hero.jpg",
 }
 
 export const BANNER_ONE: BannerProps = {

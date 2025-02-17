@@ -9,9 +9,9 @@ const handleTouchMove = (event: React.TouchEvent) => {touchEndX.current = event.
 const handleTouchEnd  = () => {
     if(touchStartX.current !== null && touchEndX.current !== null){
         const distanceTouched = touchStartX.current - touchEndX.current
-        if(distanceTouched > 50){
+        if(distanceTouched > 100){
             nextSlide() //left 
-        }else if (distanceTouched < 50){
+        }else if (distanceTouched < 100){
             prevSlide() //right
         }
     }
