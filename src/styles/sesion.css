@@ -7,7 +7,7 @@
     border-radius: 8px;
     box-shadow: var(--box-shadow);
     overflow: hidden;
-    margin: 10px 5px;
+    margin: 10px 0px;
 }
 .sesion{
     position: relative;
@@ -46,6 +46,7 @@
     flex-direction: column;
     flex-wrap: wrap-reverse;
     gap: 10px;
+    margin: 10px;
 }
 
 @media (width >= 768px) {
