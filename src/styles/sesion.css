@@ -7,7 +7,7 @@
     border-radius: 8px;
     box-shadow: var(--box-shadow);
     overflow: hidden;
-    margin-top: 10px;
+    margin: 10px 5px;
 }
 .sesion{
     position: relative;
