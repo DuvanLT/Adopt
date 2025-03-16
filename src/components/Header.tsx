@@ -13,7 +13,7 @@ export default function Header() {
             </picture>
             <nav>
                 <ul className={`nav-list ${isOpen ? "show-nav" : ""}`}>
-                    <li><Link to="/">Inicio</Link></li>
+                    <li><Link to="/" className="nav-element">Inicio</Link></li>
                     <li>Conoce</li>
                     <li>Nosotros</li>
                     <li><Link  to="/adopt"><CustomButton text="ADOPTAR AHORA" link="" /></Link></li>

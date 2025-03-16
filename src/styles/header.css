@@ -29,6 +29,11 @@ header{
     top: 0px;
 }
 
+.nav-element{
+    color: #000;
+    text-decoration: none;
+}
+
 .menu-hamburger, .logo{
     z-index: 50;
 }

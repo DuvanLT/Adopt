@@ -24,7 +24,6 @@ export default function Home() {
      <Slider slides={SLIDER_HOME} SlideComponent={(SLIDER_HOME)=><Card cardContent={SLIDER_HOME.slide}/>}/>
      <Banner {...BANNER__SIXTH}
      ButtonComponent={() => <CustomButton text="ADOPTAR HOY" link="" />}/>
-     
      <Footer />
     </>
     )
