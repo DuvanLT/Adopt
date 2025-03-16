@@ -1,5 +1,6 @@
 import '../styles/sesion.css';
-export default function Sesion({image,text}) {
+import { SesionProps } from '../types/Sesion.types';
+export default function Sesion({image,text}: SesionProps) {
     return (
         <div className="container">
         <picture className="sesion">
