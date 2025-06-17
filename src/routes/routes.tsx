@@ -6,8 +6,8 @@ import Cats from "../pages/Cats.tsx";
 
 const AppRoutes = () => (
     <Routes>
-    <Route path="/" element={<Adopt />} />
-    <Route path="/adopt" element={<Home />} />
+    <Route path="/" element={<Home />} />
+    <Route path="/adopt" element={<Adopt />} />
     <Route path="/dogs" element={<Dogs/>} />
     <Route path="/cats" element={<Cats/>} />
     </Routes>

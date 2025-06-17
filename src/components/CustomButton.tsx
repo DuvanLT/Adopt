@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import { ButtonProps } from "../types/Button.types"
 const CustomButton: React.FC<ButtonProps> = ({link,text}) => {
     return(
-        <a href={link}>
+        <Link to={link}>
         <button>{text}</button>
-        </a>
+        </Link>
     )
 }
 
