@@ -1,15 +1,15 @@
 import Header from "../components/Header"
-import PetInformation from "../components/PetInformation"
+//import PetInformation from "../components/PetInformation"
 import Sesion from "../components/Sesion"
 import '../styles/sesion.css'
-import { usePetContext } from "../context/petContext"
-import { PetProps } from "../types/PetInformation.types"
+//import { usePetContext } from "../context/petContext"
+//import { PetProps } from "../types/PetInformation.types"
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
 //import ShowCardPets from "../components/ShowCardPets"
 //import { DISCAPACITY_PETS, HEALTHY_PETS, PETS_SMALL } from "../constants/petCardToShow"
 export default function Adopt() {
-   const {petToAdopt} = usePetContext()
+   //const {petToAdopt} = usePetContext()
    return(
     <>
     <Header />
