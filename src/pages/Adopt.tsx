@@ -20,10 +20,10 @@ export default function Adopt() {
     </div>
    {/* <ShowCardPets {...HEALTHY_PETS} onSelectPet={setPetToAdopt} />
     <ShowCardPets {...DISCAPACITY_PETS} onSelectPet={setPetToAdopt}/>
-    <ShowCardPets {...PETS_SMALL} onSelectPet={setPetToAdopt}/> */}
+    <ShowCardPets {...PETS_SMALL} onSelectPet={setPetToAdopt}/> 
       {petToAdopt &&(
         <PetInformation {...(petToAdopt as PetProps)} />
-      )}
+      )}*/}
       </section>
       <Footer />
     </>
