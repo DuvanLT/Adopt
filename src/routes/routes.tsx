@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home.tsx"
-import Adopt from "../pages/Adopt.js";
+import Adopt from "../pages/Adopt.tsx";
 import Dogs from "../pages/Dogs.tsx";
 import Cats from "../pages/Cats.tsx";
 
