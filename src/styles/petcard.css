@@ -1,0 +1,38 @@
+.petCard{
+    max-width: 250px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+    height: 180px;
+}
+
+.petCard__image{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out; 
+    transform-origin: center; 
+}
+
+.petCard__image:hover{
+     transform: scale(1.1);
+}
+
+.petCard__info{
+    display: flex;
+    gap: 10px;
+    font-size: 11px;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0px 0px 0px;
+}
+
+.petCard__info-element{
+    margin: 0px 0px;
+    color: var(--grey-text);
+}
+
+.petCard__name{
+    margin: 0;
+}

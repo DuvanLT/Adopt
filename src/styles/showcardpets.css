@@ -1,0 +1,24 @@
+.t__title{
+    max-width: 1220px;
+    margin: 40px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.adopt__pets{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 10px;
+    max-width: 1220px;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+@media (width >= 768px) {
+      .t__title{
+        text-align: start;
+    }
+    .adopt__pets{
+    margin: 60px auto;
+    }
+}
