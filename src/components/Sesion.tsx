@@ -1,5 +1,5 @@
-import '../styles/sesion.css';
-import { SesionProps } from '../types/Sesion.types';
+import '../styles/sesion.css'
+import { SesionProps } from '../types/Sesion.types'
 export default function Sesion({image,text}: SesionProps) {
     return (
         <div className="container">
@@ -10,5 +10,5 @@ export default function Sesion({image,text}: SesionProps) {
             <p className='sesion__text-element'>{text}</p>
         </div>
         </div>
-    );
+    )
 }
