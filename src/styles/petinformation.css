@@ -1,5 +1,17 @@
+
+.pet__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 50;
+}
 .Pet_container{
     max-width: 600px;
+    min-width: 240px;
     margin: auto;
     background: var(--white-color);
     display: flex;
@@ -7,10 +19,13 @@
     justify-content: center;
     align-items: center;
     box-shadow: var(--box-shadow);
-    border-radius: 12px;
-    z-index: 50;
-    border-radius: 24px 24px 0 0;
-    position: relative;
+    z-index: 100;
+    border-radius: 24px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .pet__picture{
@@ -20,14 +35,14 @@
 
 .pet__picture-image{
     border-radius: 24px 24px 0 0;
-    max-height: 400px;
+    max-height: 300px;
+    object-position:top;
     min-width: 100%;
     object-fit: cover;
     height: 100%;
 }
 .pet__information{
-    margin: 20px;
-    padding: 20px;
+    padding: 5px 20px 10px 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -37,10 +52,12 @@
     justify-content: space-between;
     width: 100%;
     font-size: 18px;
+    gap: 40px;
 }
 
 .pet__information-likes{
     font-size: 18px;
+    margin: 5px 0px;
 }
 
 .pet_contact{
@@ -62,4 +79,6 @@
     position: absolute;
     top: 15px;
     right: 20px;
+    cursor: pointer;
+    z-index: 1000;
 }

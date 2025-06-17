@@ -5,6 +5,7 @@
   --white-color: #ffffff;
   --max-width-page: 1250px;
   --grey-color: #c5c5c5;
+  --grey-text: #494848;
   --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   --text-gradiant:linear-gradient(90deg,#f56ba7, #3d90f0);
 }
