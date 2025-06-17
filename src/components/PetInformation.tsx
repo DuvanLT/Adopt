@@ -44,7 +44,7 @@ export default function PetInformation({name,breed,age,birthday,likes,discapacit
         </div>
         <button className='pet_contact'>
             <Phone />
-            ADOPT ME</button>
+            ADOPTAR</button>
         </div>
     </>
     );
