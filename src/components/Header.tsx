@@ -8,15 +8,16 @@ export default function Header() {
     const {isOpen,toggleMenu} = useToggleMenu()
     return(
         <header>
+            <Link to="/" className="nav-element">
             <picture className="logo">
                 <PawPrint size={32} />
-            </picture>
+            </picture></Link>
             <nav>
                 <ul className={`nav-list ${isOpen ? "show-nav" : ""}`}>
                     <li><Link to="/" className="nav-element">Inicio</Link></li>
                     <li>Conoce</li>
                     <li>Nosotros</li>
-                    <li><Link  to="/adopt"><CustomButton text="ADOPTAR AHORA" link="" /></Link></li>
+                    <li><CustomButton text="ADOPTAR AHORA" link="/adopt" /></li>
                 </ul>
             </nav>
             <picture onClick={toggleMenu} className="menu-hamburger">
