@@ -9,7 +9,7 @@ import { Link } from "react-router-dom"
 //import ShowCardPets from "../components/ShowCardPets"
 //import { DISCAPACITY_PETS, HEALTHY_PETS, PETS_SMALL } from "../constants/petCardToShow"
 export default function Adopt() {
-   const {setPetToAdopt,petToAdopt} = usePetContext()
+   const {petToAdopt} = usePetContext()
    return(
     <>
     <Header />
