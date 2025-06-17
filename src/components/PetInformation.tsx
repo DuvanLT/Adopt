@@ -1,35 +1,51 @@
 import '../styles/petinformation.css';
 import { Phone } from 'lucide-react';
 import { XCircle } from 'lucide-react';
-export default function PetInformation() {
+import { PetProps } from '../types/PetInformation.types';
+import { usePetContext } from "../context/petContext";
+import ImageSlide from './ImageSlide';
+import Slider from '../components/Slider'
+import sliderStylesPet from '../styles/sliderPetInformation.module.css'
+export default function PetInformation({name,breed,age,birthday,likes,discapacity,dislikes,height,image} :PetProps) {
+    const {setPetToAdopt} = usePetContext()
     return (
+        <>
+         <div className="pet__overlay" onClick={() => setPetToAdopt(null)} />
         <div className="Pet_container">
-            <picture className='pet__picture'>
-                <img src="/peludo.jpg" alt="" className='pet__picture-image' />
-            </picture>
-            <XCircle color='#fff' width={32} height={32} className='pet__close' />
+            <div className='pet__picture'>
+            <Slider SlideComponent={ImageSlide} slides={image} styles={sliderStylesPet}  />
+            </div>
+            <XCircle color='#fff' width={32} height={32} className='pet__close' onClick={() => setPetToAdopt(null)}  />
             <div className="pet__information">
             <div className="pet__information-element">
-                <span><b>Name:</b> Tudy</span>
-                <span><b>Breed:</b> Pitbull</span>
+                <span><b>Nombre:</b> {name}</span>
+                <span><b>Raza:</b> {breed}</span>
             </div>
             <div className="pet__information-element">
-                <span><b>Age:</b> 4</span>
-                <span><b>Birthday:</b> 12/02/2020</span>
+                <span><b>Edad:</b> {age}</span>
+                <span><b>Cumpleaños:</b> {birthday}</span>
             </div>
+            {likes && 
             <div className="pet__information-element">
-                <p className='pet__information-likes'><b>Likes:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo provident laborum corrupti, incidunt non explicabo ullam perspiciatis repellat vitae odio molestias vero ipsa voluptatibus optio animi at itaque. Reiciendis, aperiam.</p>
+            <p className='pet__information-likes'><b>Le gusta:</b> {likes}</p>
             </div>
+            }
+            { dislikes &&
             <div className="pet__information-element">
-                <p className='pet__information-likes'><b>Dislikes:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo provident laborum corrupti, incidunt non explicabo ullam perspiciatis repellat vitae odio molestias vero ipsa voluptatibus optio animi at itaque. Reiciendis, aperiam.</p>
+                <p className='pet__information-likes'><b>Disguta:</b> {dislikes}</p>
             </div>
+            }
+            {discapacity && 
             <div>
-                <p className='pet__information-likes'><b>Discapacity:</b> N/A</p>
+                <p className='pet__information-likes'><b>Discapacidad:</b> {discapacity}</p>
+                <p className='pet__information-likes'><b>Tamaño:</b> {height}</p>
             </div>
+             }
         </div>
         <button className='pet_contact'>
             <Phone />
             ADOPT ME</button>
         </div>
+    </>
     );
 }
